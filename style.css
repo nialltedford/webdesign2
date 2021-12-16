@@ -317,7 +317,55 @@ form.cmxform label.valid, label.valid {
     font-size: 30px;
 }
 
+@media only screen
+and (min-width: 220px)
+and (max-width: 780px) {
 
+/*#nav{*/
+/* width: 100%;*/
+/*}*/
+
+/*.nav-item{*/
+/* width: 100%;*/
+/* text-align: center;*/
+/* margin-right: 0px;*/
+/* padding-top: 3px;*/
+/* padding-bottom: 3px;*/
+/*}*/
+
+.nav-item{
+margin: 0px;
+float: left;
+padding: 5px;
+}
+
+#myForm, #myForm p label, #myForm p input{
+width: 100%;
+}
+
+#myForm p label.error{
+margin-left: 0px;
+}
+
+#info{
+width: 95%;
+}
+
+#info iframe{
+width: 95%;
+}
+
+.container .footer span{
+width: 100%;
+display: block;
+margin: 5px 0;
+}
+
+#hotelName{
+font-size: 3vw;
+}
+
+}
 
 
   
